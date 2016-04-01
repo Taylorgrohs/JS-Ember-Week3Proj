@@ -1,7 +1,7 @@
 <h1>Message Board</h1>
 
 <div class="container">
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
   {{question-tile rental=rental}}
   {{/each}}
 </div>
