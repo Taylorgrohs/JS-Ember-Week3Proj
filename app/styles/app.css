@@ -1,0 +1,56 @@
+body {
+  background-color: #ecf0f1;
+}
+.question {
+  border: 10px solid black;
+  margin: 10px 0 10px 0;
+  max-width: 1200px;
+}
+.newquestion {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+textarea {
+  width: 400px;
+  height: 300px;
+}
+input {
+  width: 200px;
+
+}
+.jumbotron {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.togglenewquestion {
+  width: 800px;
+  height: 60px;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+}
+.navbar a {
+  color: white;
+}
+.navbar a:hover {
+  color: black;
+}
+.navbar {
+  background-color: black;
+  margin-bottom: 0;
+}
+.question a {
+  color:black;
+}
+
+.question button {
+  color: white;
+  background-color: black;
+  float: right;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}

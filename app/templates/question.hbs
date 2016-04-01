@@ -1,5 +1,9 @@
-<h2>{{model.content}}</h2>
-<h3>{{model.author}}</h3>
-<h4>{{question-detail question=model}}</h4>
+<div class="container">
+  <h1>{{model.content}}</h1>
+  <h3>- {{model.author}}</h3>
+  <br>
+  <h4>{{question-detail question=model}}</h4>
+  <hr>
+  {{new-answer question= model saveAnswer="saveAnswer"}}
 
-{{new-answer question= model saveAnswer="saveAnswer"}}
+</div>
