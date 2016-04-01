@@ -1,1 +1,6 @@
 "{{question.notes}}"
+<h1>Answers:</h1>
+{{#each question.answers as |answer|}}
+<h3>{{answer.author}}</h3>
+<h4>"{{answer.content}}"</h4>
+{{/each}}
