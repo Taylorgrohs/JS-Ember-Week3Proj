@@ -11,18 +11,21 @@ body {
   justify-content: center;
   margin: 0 auto;
 }
+.newquestion button {
+  margin-bottom: 10px;
+}
 textarea {
   width: 400px;
   height: 300px;
 }
 input {
   width: 200px;
-
 }
 .jumbotron {
   text-align: center;
   background-color: black;
   color: white;
+  text-shadow: 1px 1px 1px white;
 }
 .togglenewquestion {
   width: 800px;
@@ -35,6 +38,7 @@ input {
 }
 .navbar a {
   color: white;
+  margin-left: 25px;
 }
 .navbar a:hover {
   color: black;
@@ -42,6 +46,11 @@ input {
 .navbar {
   background-color: black;
   margin-bottom: 0;
+  color: white;
+}
+.brand {
+  margin-top: 15px;
+  margin-left: 5px;
 }
 .question a {
   color:black;
@@ -53,4 +62,8 @@ input {
   float: right;
   margin-bottom: 10px;
   margin-right: 30px;
+}
+button {
+  color: white;
+  background-color: black;
 }
