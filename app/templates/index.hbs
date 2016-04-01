@@ -1,9 +1,9 @@
+<div class="jumbotron">
 <h1>Message Board</h1>
-
+</div>
+{{new-question saveQuestion="saveQuestion"}}
 <div class="container">
-  {{#each model.questions as |question|}}
-  {{question-tile rental=rental}}
+  {{#each model as |question|}}
+  {{question-tile question=question update="update"}}
   {{/each}}
 </div>
-
-{{new-question saveQuestion="saveQuestion"}}
