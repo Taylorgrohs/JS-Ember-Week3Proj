@@ -1,7 +1,6 @@
 # Message-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This application allows a user to post questions they have and users can go to specific questions and create answers for them.
 
 ## Prerequisites
 
